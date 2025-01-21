@@ -6,7 +6,6 @@ public class Excavator extends Machine {
     private String excavatorType;
 
     public Excavator() {
-        super(null, null);
     }
 
     public Excavator(String name, String color, int excavatorLength,

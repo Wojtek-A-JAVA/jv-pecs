@@ -6,7 +6,6 @@ public class Truck extends Machine {
     private int horsePower;
 
     public Truck() {
-        super(null, null);
     }
 
     public Truck(String name, String color, int year, int truckLength, int horsePower) {

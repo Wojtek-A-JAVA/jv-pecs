@@ -9,6 +9,9 @@ public abstract class Machine implements Workable {
         this.color = color;
     }
 
+    public Machine() {
+    }
+
     public String getName() {
         return name;
     }

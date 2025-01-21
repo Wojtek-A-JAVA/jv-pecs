@@ -6,7 +6,6 @@ public class Bulldozer extends Machine {
     private String bulldozerType;
 
     public Bulldozer() {
-        super(null, null);
     }
 
     public Bulldozer(String name, String color, int bladeLength,
