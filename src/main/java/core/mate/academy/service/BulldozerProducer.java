@@ -10,8 +10,8 @@ public class BulldozerProducer implements MachineProducer<Bulldozer> {
     public List<Bulldozer> get() {
         List<Bulldozer> bulldozer = new ArrayList<>();
         bulldozer.add(new Bulldozer("caterpillar", "yellow", 10, 10, "crawler"));
-        bulldozer.add(new Bulldozer("johnDeere", "green", 5, 5, "mini "));
-        bulldozer.add(new Bulldozer("case", "red", 15, 15, "hybrid "));
+        bulldozer.add(new Bulldozer("johnDeere", "green", 5, 5, "mini"));
+        bulldozer.add(new Bulldozer("case", "red", 15, 15, "hybrid"));
         return bulldozer;
     }
 }

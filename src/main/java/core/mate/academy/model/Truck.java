@@ -1,16 +1,16 @@
 package core.mate.academy.model;
 
 public class Truck extends Machine {
-    private int year;
+    private int manufactureYear;
     private int truckLength;
     private int horsePower;
 
     public Truck() {
     }
 
-    public Truck(String name, String color, int year, int truckLength, int horsePower) {
+    public Truck(String name, String color, int manufactureYear, int truckLength, int horsePower) {
         super(name, color);
-        this.year = year;
+        this.manufactureYear = manufactureYear;
         this.truckLength = truckLength;
         this.horsePower = horsePower;
     }

@@ -28,6 +28,9 @@ public class MachineServiceImpl implements MachineService<Machine> {
 
     @Override
     public void fill(List<? super Machine> machines, Machine value) {
+        if (machines == null) {
+            throw new NullPointerException("List is empty");
+        }
         for (int i = 0; i < machines.size(); i++) {
             machines.set(i, value);
         }
@@ -35,6 +38,9 @@ public class MachineServiceImpl implements MachineService<Machine> {
 
     @Override
     public void startWorking(List<? extends Machine> machines) {
+        if (machines == null) {
+            throw new NullPointerException("List is empty");
+        }
         for (Machine machine : machines) {
             machine.doWork();
         }

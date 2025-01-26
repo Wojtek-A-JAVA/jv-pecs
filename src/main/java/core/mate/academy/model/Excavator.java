@@ -1,19 +1,19 @@
 package core.mate.academy.model;
 
 public class Excavator extends Machine {
-    private int excavatorLength;
-    private int excavatorHeight;
-    private String excavatorType;
+    private int length;
+    private int height;
+    private String type;
 
     public Excavator() {
     }
 
-    public Excavator(String name, String color, int excavatorLength,
-                     int excavatorHeight, String excavatorType) {
+    public Excavator(String name, String color, int length,
+                     int height, String type) {
         super(name, color);
-        this.excavatorLength = excavatorLength;
-        this.excavatorHeight = excavatorHeight;
-        this.excavatorType = excavatorType;
+        this.length = length;
+        this.height = height;
+        this.type = type;
     }
 
     @Override
